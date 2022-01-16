@@ -12,4 +12,5 @@
 2.继续阅读论文Bias Analysis and Mitigation in the Evaluation of Authorship Verification （ACL2019）  
 
 ### 1月16日
-1.学习如何使用github desktop上传更新至原库  
+1.学习如何使用github desktop上传更新至原库，没有直接进行这一步的方法，只能分步进行  
+2.MSRP上的文本相似度任务已跑完，final test acc: 0.793043  
