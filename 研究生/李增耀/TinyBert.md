@@ -16,13 +16,13 @@
 
 **Transformer 蒸馏图（a：蒸馏框架	b：蒸馏细节）**
 
-![image-20220117210837571](E:\AIPlan\研究生\李增耀\img\TinyBert_1.png)
+![image-20220117210837571]([AIPLAN/TinyBert_1.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_1.png))
 
 
 
 **TinyBert两段式学习图示**
 
-![](E:\AIPlan\研究生\李增耀\img\TinyBert_2.png)
+![]([AIPLAN/TinyBert_1.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_2.png))
 
 
 
