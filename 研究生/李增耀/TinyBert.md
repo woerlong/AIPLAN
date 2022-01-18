@@ -22,7 +22,7 @@
 
 **TinyBert两段式学习图示**
 
-![]([AIPLAN/TinyBert_1.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_2.png))
+![]([AIPLAN/TinyBert_2.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_2.png))
 
 
 
@@ -36,7 +36,7 @@ n = g(m)作为学生层到教师层的映射函数，即第m层的学生模型�
 
 最小化以下目标从老师那里获得知识：
 
-![image-20220117211708635](E:\AIPlan\研究生\李增耀\img\TinyBert_3.png)
+![image-20220117211708635]([AIPLAN/TinyBert_3.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_3.png))
 
 
 
@@ -46,13 +46,13 @@ n = g(m)作为学生层到教师层的映射函数，即第m层的学生模型�
 
 从attention提取知识：
 
-![image-20220117211732051](E:\AIPlan\研究生\李增耀\img\TinyBert_4.png)
+![image-20220117211732051]([AIPLAN/TinyBert_4.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_4.png))
 
 h是attention heads数量，本文采用(未归一化)注意矩阵Ai作为拟合目标，而不是其softmax输出的softmax(Ai)
 
 除了基于attention的提取外，我们还从Transformer层的输出中提取知识：
 
-![image-20220117211748243](E:\AIPlan\研究生\李增耀\img\TinyBert_5.png)
+![image-20220117211748243]([AIPLAN/TinyBert_5.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_5.png))
 
 
 
@@ -62,7 +62,7 @@ h是attention heads数量，本文采用(未归一化)注意矩阵Ai作为拟合
 
 计算学生模型的词向量ES和教师模型的词向量ET之间的均方误差损失
 
-![image-20220117211800743](E:\AIPlan\研究生\李增耀\img\TinyBert_6.png)
+![image-20220117211800743]([AIPLAN/TinyBert_6.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_6.png))
 
 
 
@@ -70,7 +70,7 @@ h是attention heads数量，本文采用(未归一化)注意矩阵Ai作为拟合
 
 利用知识蒸馏来拟合教师模型的预测
 
-![image-20220117211821285](E:\AIPlan\研究生\李增耀\img\TinyBert_7.png)
+![image-20220117211821285]([AIPLAN/TinyBert_7.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_7.png))
 
 zS和zT分别是学生和老师预测的logit向量
 
@@ -78,7 +78,7 @@ zS和zT分别是学生和老师预测的logit向量
 
 **教师与学生网络对应层的蒸馏损失总结：**
 
-![image-20220117211834773](E:\AIPlan\研究生\李增耀\img\TinyBert_8.png)
+![image-20220117211834773]([AIPLAN/TinyBert_8.png at main · Zero-Lzy/AIPLAN (github.com)](https://github.com/Zero-Lzy/AIPLAN/blob/main/研究生/李增耀/img/TinyBert_8.png))
 
 实验中，先进行中间层蒸馏(M≥M≥0)，然后进行预测层蒸馏(M = M + 1)。
 
