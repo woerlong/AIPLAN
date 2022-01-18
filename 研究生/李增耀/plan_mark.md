@@ -24,3 +24,13 @@
 
 ## 1月18日
 
+**学习论文PARADE: Passage Representation Aggregation for Document Reranking**
+
+**学习论文Efficient Document Re-Ranking for Transformers by Precomputing Term Representations**
+
+------
+
+## 1月19日
+
+**学习论文Efficient Document Re-Ranking for Transformers by Precomputing Term Representations**
+
