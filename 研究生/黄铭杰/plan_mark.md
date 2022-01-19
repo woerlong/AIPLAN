@@ -14,3 +14,6 @@
 ### 1月16日
 1.学习如何使用github desktop上传更新至原库，没有直接进行这一步的方法，只能分步进行  
 2.MSRP上的文本相似度任务已跑完，final test acc: 0.793043  
+
+### 1月17日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
