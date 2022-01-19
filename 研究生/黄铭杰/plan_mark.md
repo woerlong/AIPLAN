@@ -17,3 +17,8 @@
 
 ### 1月17日
 1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月18日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling，并绘制脑图  
+2.阅读论文Intra-Document Cascading Learning to Select Passages for Neural Document Ranking  
+3.编制github配合github desktop操作简易说明  
