@@ -14,3 +14,23 @@
 ### 1月16日
 1.学习如何使用github desktop上传更新至原库，没有直接进行这一步的方法，只能分步进行  
 2.MSRP上的文本相似度任务已跑完，final test acc: 0.793043  
+
+### 1月17日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月18日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling，并绘制脑图  
+2.阅读论文Intra-Document Cascading Learning to Select Passages for Neural Document Ranking  
+3.编制github配合github desktop操作简易说明  
+
+### 1月19日
+1.阅读论文Intra-Document Cascading Learning to Select Passages for Neural Document Ranking，并绘制脑图  
+
+### 1月20日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月21日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月22日
+1.阅读论文Intra-Document Cascading: Learning to Select Passages for Neural Document Ranking  
