@@ -25,3 +25,12 @@
 
 ### 1月19日
 1.阅读论文Intra-Document Cascading Learning to Select Passages for Neural Document Ranking，并绘制脑图  
+
+### 1月20日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月21日
+1.阅读论文Deeper Text Understanding for IR with Contextual Neural Language Modeling  
+
+### 1月22日
+1.阅读论文Intra-Document Cascading: Learning to Select Passages for Neural Document Ranking  
